@@ -235,7 +235,7 @@ class TypingTestApp:
 
         # Load text from file based on user mode
         try:
-            with open(f"data/{self.user_mode.get()}.txt", "r", encoding="utf-8") as file:
+            with open(resource_path(f"data/{self.user_mode.get()}.txt"), "r", encoding="utf-8") as file:
                 lines = file.read().splitlines()
         except Exception as e:
             messagebox.showerror("File Error", f"Could not load text file for mode {self.user_mode.get()}.")
