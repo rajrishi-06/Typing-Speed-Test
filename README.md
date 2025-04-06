@@ -1,4 +1,3 @@
-```markdown
 # Typing Speed Test
 
 A simple, interactive, and customizable typing speed test that helps improve your typing skills with dynamic feedback, unique typewriter key sounds, and detailed performance metrics.
